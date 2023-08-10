@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-items>ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.RestaurantCard {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.RestaurantCard>img {
+    width: 100%;
+}
+
+.about {
+    font-family: sans-serif;
+}
+
+
+/* .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 25px;
+} */
+
+.RestaurantDetails {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.RestaurantDetails>img {
+    width: 100%;
+}
